@@ -1,0 +1,126 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh; }
+
+/* LOCAL STYLES */
+.nav-center {
+  padding: 15px 0px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 5px 7px -4px rgba(0, 0, 0, 0.75); }
+
+.nav-center a {
+  text-decoration: none;
+  color: #000; }
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#mood-choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #mood-choices h1 {
+    margin: 20px;
+    font-size: 50px; }
+  #mood-choices .btns-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 40px; }
+    #mood-choices .btns-container button {
+      padding: 10px 30px;
+      background-color: transparent;
+      border: 2px solid #000;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: 700; }
+
+/* MUSIC PLAYER */
+.music-player-container {
+  padding: 6px;
+  width: 300px;
+  border-radius: 8px;
+  background-color: #E1E6EC;
+  box-shadow: 5px 5px 11px #A2B1C6, -5px -5px 11px #fff;
+  text-align: center; }
+
+.music-player-wrapper {
+  margin-top: 15px; }
+
+.music-player-container img {
+  width: 80%; }
+
+.music-player-container h1 {
+  font-size: 1.5rem;
+  margin: 12px 0 12px 0; }
+
+.buttons {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.music-buttons button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  padding: 16px;
+  border-radius: 90px;
+  background-color: #E1E6EC;
+  text-align: left;
+  margin: 10px 9px;
+  border: none;
+  box-shadow: 2px 2px 5px #A2B1C6, -2px -2px 11px #fff;
+  /*background:linear-gradient(-45deg,#a2b1c6,#fff);*/ }
+
+.music-buttons button:active {
+  background: #E1E6EC;
+  box-shadow: inset 2px 2px 5px #A2B1C6, -2px -2px 11px #fff; }
+
+.music-buttons button img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 42%;
+  height: 42%; }
+
+.level {
+  width: 80%;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #E1E6EC;
+  box-shadow: 2px 2px 5px #A2B1C6, -2px -2px 11px #fff;
+  border-radius: 50px;
+  margin: 12px 0; }
+
+.level::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #A2B1C6;
+  box-shadow: 2px 2px 5px #A2B1C6, -2px -2px 5px #fff;
+  width: 15px;
+  /* Set a specific slider handle width */
+  height: 15px;
+  /* Slider handle height */
+  border-radius: 90px; }
+
+.level::-moz-range-thumb {
+  width: 50px;
+  height: 50px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Moody Music</title>
+</head>
+
+<body>
+
+  <!-- <nav>
+    <div class="nav-center">
+      <a href="index.html">
+        <h2>Moody Music Player</h2>
+      </a>
+    </div>
+  </nav> -->
+
+  <main class="container">
+
+    <section id="mood-choices">
+      <h1>What kind of mood are you in?</h1>
+      <div class="btns-container">
+        <button class="btn happy">Happy</button>
+        <button class="btn mellow">Mellow</button>
+        <button class="btn energetic">Energetic</button>
+        <button class="btn sad">Sad</button>
+        <button class="btn angry">Angry</button>
+        <button class="btn irritable">Irritable</button>
+      </div>
+    </section>
+
+    <section id="music-player">
+      <div class="music-player-container">
+        <div class="music-player-wrapper">
+          <!-- <h1>Play your favorite music</h1> -->
+          <img src="https://images.genius.com/ff6a768394fd74a346b59cd757a5b662.1000x1000x1.jpg">
+          <input id="range" class="level" type="range" value="0" min="0">
+          <div class="music-buttons">
+            <button id="pre"><img src="/Photos/rewind.png"></button>
+            <button id="play"><img id="play_img" src="/Photos/play.png"></button>
+            <button id="next"><img src="/Photos/fast-forward.png"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
